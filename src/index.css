@@ -1,13 +1,114 @@
-body {
+html body {
+  background: linear-gradient(rgba(80, 75, 48, 0.58), rgba(80, 75, 48, 0.58)),
+    url(./assets/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Popins";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.checkbox-container {
+  flex-direction: row;
+}
+
+.checkbox-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+input[type="checkbox"] {
+  display: inline;
+  cursor: pointer;
+}
+
+label {
+  color: #faf5e4;
+  display: inline;
+  margin: 0 1.5rem 0 0.3rem;
+}
+
+button {
+  width: 80px;
+  background-color: #2c786c;
+  border: none;
+  font-size: 1em;
+  border-radius: 10px;
+  margin-top: 0.7rem;
+  padding: 0.5rem 1rem;
+  color: #faf5e4;
+  box-shadow: -2px -2px 12px 0 rgba(255, 255, 255, 0.3),
+    5px 5px 12px 0 rgba(0, 0, 0, 0.3);
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background: #004445;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #f8b400;
+}
+
+.card {
+  display: flex;
+  min-width: 180px;
+  margin: 0.7rem 0.5rem;
+  border-radius: 20px;
+  box-shadow: -5px -5px 12px 0 rgba(255, 255, 255, 0.3),
+    5px 5px 12px 0 rgba(0, 0, 0, 0.3);
+  opacity: 0.7;
+  animation: fadein 2s;
+}
+
+
+header {
+  text-align: center;
+}
+
+h6 {
+  color: #faf5e4;
+  text-align: center;
+}
+
+header h2 {
+  margin-top: 1rem;
+  color: #f8b400;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.row {
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+.bold {
+  font-weight: bold;
+}
+.row div {
+  color: #004445;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.7;
+  }
 }
