@@ -1,26 +1,31 @@
 {
   "files": {
-    "main.css": "/stocks/static/css/main.027307d5.chunk.css",
-    "main.js": "/stocks/static/js/main.a5f289d9.chunk.js",
-    "main.js.map": "/stocks/static/js/main.a5f289d9.chunk.js.map",
+    "main.css": "/stocks/static/css/main.de0bb69d.chunk.css",
+    "main.js": "/stocks/static/js/main.3cc933d6.chunk.js",
+    "main.js.map": "/stocks/static/js/main.3cc933d6.chunk.js.map",
     "runtime-main.js": "/stocks/static/js/runtime-main.d61ad68b.js",
     "runtime-main.js.map": "/stocks/static/js/runtime-main.d61ad68b.js.map",
     "static/css/2.47e06e2e.chunk.css": "/stocks/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.3c094572.chunk.js": "/stocks/static/js/2.3c094572.chunk.js",
-    "static/js/2.3c094572.chunk.js.map": "/stocks/static/js/2.3c094572.chunk.js.map",
+    "static/js/2.1e251748.chunk.js": "/stocks/static/js/2.1e251748.chunk.js",
+    "static/js/2.1e251748.chunk.js.map": "/stocks/static/js/2.1e251748.chunk.js.map",
     "index.html": "/stocks/index.html",
-    "precache-manifest.21bd5433dae1a40103af433ffeab4309.js": "/stocks/precache-manifest.21bd5433dae1a40103af433ffeab4309.js",
+    "precache-manifest.67849660f68fb99c9a3f5e7edc52c89f.js": "/stocks/precache-manifest.67849660f68fb99c9a3f5e7edc52c89f.js",
     "service-worker.js": "/stocks/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/stocks/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.027307d5.chunk.css.map": "/stocks/static/css/main.027307d5.chunk.css.map",
-    "static/js/2.3c094572.chunk.js.LICENSE.txt": "/stocks/static/js/2.3c094572.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/stocks/static/media/background.a5bf0101.jpg"
+    "static/css/main.de0bb69d.chunk.css.map": "/stocks/static/css/main.de0bb69d.chunk.css.map",
+    "static/js/2.1e251748.chunk.js.LICENSE.txt": "/stocks/static/js/2.1e251748.chunk.js.LICENSE.txt",
+    "static/media/apple.svg": "/stocks/static/media/apple.c66b5c1c.svg",
+    "static/media/aws.svg": "/stocks/static/media/aws.3fd1d207.svg",
+    "static/media/index.css": "/stocks/static/media/background.a5bf0101.jpg",
+    "static/media/facebook.svg": "/stocks/static/media/facebook.16ab2644.svg",
+    "static/media/google.svg": "/stocks/static/media/google.da3a9ed4.svg",
+    "static/media/twitter.svg": "/stocks/static/media/twitter.6620c8ae.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d61ad68b.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.3c094572.chunk.js",
-    "static/css/main.027307d5.chunk.css",
-    "static/js/main.a5f289d9.chunk.js"
+    "static/js/2.1e251748.chunk.js",
+    "static/css/main.de0bb69d.chunk.css",
+    "static/js/main.3cc933d6.chunk.js"
   ]
 }
