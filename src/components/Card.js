@@ -6,6 +6,7 @@ import apple from "../assets/apple.svg";
 import google from "../assets/google.svg";
 
 const Card = ({ title, body, show }) => {
+
   const getIcon = iconName => {
     let icon;
     console.log(iconName);
@@ -29,7 +30,6 @@ const Card = ({ title, body, show }) => {
   };
 
   let icon = getIcon(title);
-  console.log(icon);
   
   return (
     <div className="card">

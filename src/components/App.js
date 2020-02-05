@@ -113,11 +113,11 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-          <h2>Stocks</h2>
+          <h2>Stock</h2>
         </header>
         <div id="list" style={{margin:"1rem"}}>
           <h6>Mark the stock you want to see</h6>
-          <div className="checkbox-container flex-center">
+          <div className="flex-center">
             {list
               ? list.map((item, index) => (
                   <div key={index} className="checkbox-list flex-center">
